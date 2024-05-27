@@ -32,6 +32,7 @@
           android:textStyle="bold"
           android:textColor="#E81C61"/>
       <EditText
+          android:id="@+id/lgn_email"
           android:layout_width="match_parent"
           android:layout_height="50dp"
         android:background="@drawable/custom_edittext"
@@ -42,6 +43,7 @@
           android:textColorHint="#E81C61"
           />
       <EditText
+          android:id="@+id/lgn_password"
           android:layout_width="match_parent"
           android:layout_height="50dp"
           android:background="@drawable/custom_edittext"
@@ -60,6 +62,24 @@
          android:layout_marginTop="30dp"
          android:backgroundTint="#E81C61"
          />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Registered ? "
+            android:textColor="@color/black"
+            android:layout_marginStart="60dp"/>
+        <TextView
+            android:id="@+id/reg_redirect_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Here"
+            android:textColor="#102DE6"/>
+      </LinearLayout>
     </LinearLayout>
   </androidx.cardview.widget.CardView>
 

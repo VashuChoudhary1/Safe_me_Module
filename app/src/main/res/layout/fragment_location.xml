@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LocationFragment">
+    android:orientation="vertical"
+    tools:context=".LocationFragment"
+    android:background="@color/white">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Button
+        android:id="@+id/Share_Live_location"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Share Live Location"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#E91E63"/>
 
-</FrameLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Nearby Hospitals"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Nearby Police Stations"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+
+
+</LinearLayout>

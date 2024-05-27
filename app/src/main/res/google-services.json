@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "933429504256",
+    "project_id": "safememodule",
+    "storage_bucket": "safememodule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933429504256:android:4b33196aefa0a02af3ebe5",
+        "android_client_info": {
+          "package_name": "com.example.safe_memodule"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGI64CxtvKDA3ElkX1WAt6cveGScmLIzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -19,6 +19,7 @@
       android:layout_height="wrap_content"
       android:layout_alignParentBottom="true"
       app:menu="@menu/menu"
-      android:background="@color/white" />
+      android:background="#EC8282"
+      android:visibility="visible"/>
 
 </RelativeLayout>

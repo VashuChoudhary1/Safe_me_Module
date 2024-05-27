@@ -57,4 +57,8 @@
     <string name="women_helpline">Women Helpline</string>
     <string name="call_ambulance">Call Ambulance</string>
     <string name="national_helpline">National Helpline</string>
+    <string name="_1234567890">+1234567890</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="vashu_choudhary">Vashu Choudhary</string>
+    <string name="profile_image_user">profile_image_user</string>
 </resources>
